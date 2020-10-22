@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="monospace"
+        android:text="MEET UP"
+        android:textAlignment="center"
+        android:textColor="#0E0D0D"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:onClick="register"
+        android:text="REGISTER" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:layout_marginTop="51dp"
+        android:drawableLeft="@drawable/ic_login"
+        android:onClick="login"
+        android:text="LOGIN" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/logo1" />
+
+
+</RelativeLayout>
+
+
+
